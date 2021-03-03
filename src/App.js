@@ -1,4 +1,7 @@
 import "./styles.css";
+import data from "./data";
+
+console.log(data)
 
 export default function App() {
   return (
