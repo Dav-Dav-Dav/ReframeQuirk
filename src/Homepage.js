@@ -9,7 +9,7 @@ export default function Homepage() {
   function Hello(props) {
     return (
       <div>
-        <Link to="/home">{props.reframeNumber}</Link>
+        <Link to={`/${props.reframeNumber}`}>{props.reframeNumber}</Link>
         <br />
         <br />
         <br />
