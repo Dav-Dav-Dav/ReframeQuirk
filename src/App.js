@@ -1,5 +1,6 @@
 import "./styles.css";
 import data from "./data";
+import { Link } from "react-router-dom";
 
 // 1. Mapping over data
 export default function App() {
@@ -9,7 +10,10 @@ export default function App() {
   function Hello(props) {
     return (
       <div>
-        <p>{props.reframeNumber}</p>
+        <Link to="/home">{props.reframeNumber}</Link>
+        <br />
+        <br />
+        <br />
       </div>
     );
   }
@@ -17,7 +21,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Reframe</h1>
-      {reframeData}
+      <ul>{reframeData}</ul>
     </div>
   );
 }
