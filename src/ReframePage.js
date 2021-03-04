@@ -8,6 +8,7 @@ export default function ReframePage() {
     <div className="App">
       <h1>Reframe Page</h1>
       <h1>{reframeId}</h1>
+      <button>Next</button>
     </div>
   );
 }
