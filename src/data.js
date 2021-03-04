@@ -1,44 +1,26 @@
 export default [
   {
-    id: 1,
-    type: "Text",
-    title: "Test Title",
-    description: "Test Description",
-    image: "https://react.semantic-ui.com/images/avatar/large/matthew.png"
+    situation: "Text",
+    reframe: "Test Title"
   },
   {
-    id: 2,
-    type: "Activity",
-    title: "Test Title",
-    description: "Test Description",
-    image: "https://react.semantic-ui.com/images/avatar/large/elliot.jpg"
+    situation: "Activity",
+    reframe: "Test Title"
   },
   {
-    id: 3,
-    type: "Ressource",
-    title: "Test Title",
-    description: "Test Description",
-    image: "https://react.semantic-ui.com/images/avatar/large/matthew.png"
+    situation: "Ressource",
+    reframe: "Test Title"
   },
   {
-    id: 4,
-    type: "Unit Plan",
-    title: "Test Title",
-    description: "Test Description",
-    image: "https://react.semantic-ui.com/images/avatar/large/elliot.jpg"
+    situation: "Unit Plan",
+    reframe: "Test Title"
   },
   {
-    id: 5,
-    type: "Activity",
-    title: "Test Title",
-    description: "Test Description",
-    image: "https://react.semantic-ui.com/images/avatar/large/matthew.png"
+    situation: "Activity",
+    reframe: "Test Title"
   },
   {
-    id: 6,
-    type: "Text",
-    title: "Test Title",
-    description: "Test Description",
-    image: "https://react.semantic-ui.com/images/avatar/large/elliot.jpg"
+    situation: "Text",
+    reframe: "Test Title"
   }
 ];
